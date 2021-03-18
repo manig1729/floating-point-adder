@@ -1,5 +1,5 @@
 /*
-	Testbench to test the code. A lot of diverse cases have been taken to
+	Testbench to test the code. A few different cases have been taken to
 	show the extent of the adder. Inputs n1 and n2 are exchanged to show that
 	the order of the inputs doesn't make a difference and negative numbers are taken 
 	to show the sign calculations are done correctly.
