@@ -1,4 +1,4 @@
-# floating-point-adder
+# Floating Point Adder in Verilog
 This is the verilog implementation of a floating point adder that adds two numbers in the IEEE754 single precision format of floating point representation.<br>
 
 This code is written in a modular format, where blocks shown in the circuit diagram are implemented in different modules.<br>
