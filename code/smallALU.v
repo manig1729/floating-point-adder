@@ -9,4 +9,4 @@
 
 module smallALU (input [7:0] num1, input [7:0] num2, output [7:0] diff);
 	assign diff = num1 - num2;
-endmodule : smallALU
+endmodule

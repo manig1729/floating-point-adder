@@ -7,6 +7,7 @@
 	Finally, a case of overflow check is taken where two numbers very close to infinity
 	are added and the output sum obtained is infinity
 */
+`include "fpAdder.v"
 
 module fpAdderTb;
 	reg [31:0] n1, n2;
@@ -15,6 +16,10 @@ module fpAdderTb;
 	fpAdder FPA ( .n1(n1), .n2(n2), .sum(sum) );
 
 	initial begin
+
+	$dumpfile("fpAdder_out.vcd");
+	$dumpvars(0, fpAdderTb);
+
 			n1 <= 32'b01000001110000010000000000000000;			// 24.125
 			n2 <= 32'b01000100011011001011000000000000;			// 946.75
 

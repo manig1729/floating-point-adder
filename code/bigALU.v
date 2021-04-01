@@ -13,4 +13,4 @@ always @(*) begin
 	else if(op == 1)
 		sum = num1 - num2;
 end
-endmodule : bigALU
+endmodule

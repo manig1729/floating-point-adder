@@ -19,4 +19,4 @@ always @(*) begin
 	end		
 end
 
-endmodule : selectSignalMux
+endmodule

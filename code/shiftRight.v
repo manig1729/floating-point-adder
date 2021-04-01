@@ -10,4 +10,4 @@
 
 module shiftRight (input [31:0] num, input [7:0] shiftAmt, output [31:0] shitftAns);
 	assign shitftAns = num >> shiftAmt;
-endmodule : shiftRight
+endmodule

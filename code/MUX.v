@@ -6,12 +6,12 @@
 
 module MUX_1bit (input a, input b, input Sel, output out);
 	assign out = Sel?b:a;
-endmodule : MUX_1bit
+endmodule
 
 module MUX_32bit (input [31:0] a, input [31:0] b, input Sel, output [31:0] out);
 	assign out = Sel?b:a;
-endmodule : MUX_32bit
+endmodule
 
 module MUX_8bit (input [7:0] a, input [7:0] b, input Sel, output [7:0] out);
 	assign out = Sel?b:a;
-endmodule : MUX_8bit
+endmodule

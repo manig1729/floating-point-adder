@@ -10,6 +10,15 @@
 	The code is written in a modular form where all small functions in the adder have
 	been implemented in different modules
 */
+
+`include "bigALU.v"
+`include "exceptionCheck.v"
+`include "MUX.v"
+`include "normaliseSum.v"
+`include "selectSignalMUX.v"
+`include "shiftRight.v"
+`include "smallALU.v"
+
 module fpAdder (input [31:0] n1, input [31:0] n2, output [31:0] sum);
 
 	wire [31:0] fraction1;
@@ -89,7 +98,7 @@ module fpAdder (input [31:0] n1, input [31:0] n2, output [31:0] sum);
 
 		assign sum = {signFinalE, exponentFinalE, fractionFinalE[22:0]};	// final assignment of sum value
 
-endmodule : fpAdder
+endmodule
 
 
 

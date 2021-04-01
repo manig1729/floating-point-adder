@@ -40,4 +40,4 @@ always @(*) begin
 
 end
 
-endmodule : normaliseSum
+endmodule

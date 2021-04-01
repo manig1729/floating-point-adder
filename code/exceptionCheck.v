@@ -28,4 +28,4 @@ always @(*) begin
 	end
 end	
 
-endmodule : exceptionCheck
+endmodule
